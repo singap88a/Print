@@ -37,7 +37,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="md:px-20 px-5 py-10">
+    <div className="md:px-20 px-[16px] py-10 3xl:px-40">
       <h2 className="text-2xl font-semibold mb-4">Business Card FAQs</h2>
       <div className="space-y-2">
         {faqs.map((faq, index) => (
@@ -47,7 +47,7 @@ export default function FAQ() {
           >
             <button
               className={`w-full text-left px-4 py-3 flex justify-between items-center ${
-                openIndex === index ? "bg-purple-100" : "bg-white"
+                openIndex === index ? "bg-[#ececfd]" : "bg-white"
               }`}
               onClick={() => toggleFAQ(index)}
             >

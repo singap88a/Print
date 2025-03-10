@@ -15,7 +15,7 @@ const Navbar = () => {
   const [cities] = useState(["Riyadh", "Jeddah", "Dammam", "Mecca"]);
 
   return (
-    <nav className="bg-white bg-opacity-80 p-4 backdrop-blur-sm md:px-20 px-5 fixed w-full z-[500] border-b border-gray-400">
+    <nav className="bg-white bg-opacity-80 p-4 backdrop-blur-sm md:px-20 px-[16px]  w-full z-[500] border-b border-[#E2E8F0]">
       <div className="container mx-auto flex items-center justify-between gap-10">
         <div className="flex items-center space-x-2 lg:hidden">
           <button
@@ -103,7 +103,7 @@ const Navbar = () => {
       )}
 
       <div
-        className={`container mx-auto mt-4 lg:flex justify-center gap-10 text-[#0F172A] text-[14px] text-center  ${
+        className={`container mx-auto mt-4 lg:flex justify-center gap-7 text-[#0F172A] text-[14px] text-center  ${
           isMenuOpen ? "block" : "hidden"
         }`}
       >

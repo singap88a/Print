@@ -15,7 +15,7 @@ const ProductsSection = () => {
   );
 
   return (
-    <div className="md:px-20 px-5 py-10">
+    <div className="md:px-20 px-5 py-10 3xl:px-40">
       <h2 className="text-[20px] font-bold mb-4">Similar Products</h2>
       <div className="hidden sm:grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
         {similarProducts.map((product) => (

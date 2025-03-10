@@ -9,8 +9,8 @@ import footer_6 from "../../public/footer/footer_6.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F8FAFC] py-8 px-5 md:px-20 text-gray-700">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 py-6">
+    <footer className="bg-[#F8FAFC] py-8 px-[16px] md:px-20 text-gray-700 3xl:px-40">
+      <div className="container mx-auto grid md:grid-cols-1 lg:grid-cols-3 gap-6 py-6">
         <div>
           <Image src="/logo.png" alt="Print Plus" width={100} height={50} />
           <p className="mt-2 text-[15px] text-[#0F172A] font-[400]  ">
@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className=" flex items-center justify-between border-t pt-4 border-[#CBD5E1] md:flex-row flex-col">
+      <div className=" flex items-center justify-between border-t pt-4 border-[#CBD5E1] md:flex-row flex-col-reverse  ">
         <div className="">
           <p className="mt-4 text-sm">&copy; 2025 Print Plus</p>
         </div>
