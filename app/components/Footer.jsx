@@ -1,18 +1,18 @@
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
-import footer_1 from "../../public/footer/footer_1.png";
-import footer_2 from "../../public/footer/footer_2.png";
-import footer_3 from "../../public/footer/footer_3.png";
-import footer_4 from "../../public/footer/footer_4.png";
-import footer_5 from "../../public/footer/footer_5.png";
-import footer_6 from "../../public/footer/footer_6.png";
+import footer_1 from "../../public/footer/footer_1.svg";
+import footer_2 from "../../public/footer/footer_2.svg";
+import footer_3 from "../../public/footer/footer_3.svg";
+import footer_4 from "../../public/footer/footer_4.svg";
+import footer_5 from "../../public/footer/footer_5.svg";
+import footer_6 from "../../public/footer/footer_6.svg";
 
 export default function Footer() {
   return (
     <footer className="bg-[#F8FAFC] py-8 px-[16px] md:px-20 text-gray-700 3xl:px-40">
-      <div className="container mx-auto grid md:grid-cols-1 lg:grid-cols-3 gap-6 py-6">
+      <div className="container grid gap-6 py-6 mx-auto md:grid-cols-1 lg:grid-cols-3">
         <div>
-          <Image src="/logo.png" alt="Print Plus" width={100} height={50} />
+          <Image src="/logo.svg" alt="Print Plus" width={100} height={50} />
           <p className="mt-2 text-[15px] text-[#0F172A] font-[400]  ">
             Al-Sadhan Center, Mousa Bin Nasser <br /> Street, Al-Sulaimaniya
             District, Riyadh.
@@ -48,14 +48,14 @@ export default function Footer() {
 
         <div>
           <Image src={footer_1} alt="VAT" className="w-[41px] h-[50px]" />
-          <div className="flex space-x-3 mt-4 items-center">
+          <div className="flex items-center mt-4 space-x-3">
             <Image src={footer_2} alt="Visa" className="w-[34px] h-[27px]" />
             <Image src={footer_3} alt="Mada" className="w-[41px] h-[13px]" />
             <Image src={footer_4} alt="Aramex" className="w-[43px] h-[14px]" />
             <Image src={footer_5} alt="Aramex" className="w-[69px] h-[11px]" />
             <Image src={footer_6} alt="Aramex" className="w-[27px] h-[27px]" />
           </div>
-          <div className="flex space-x-4 mt-4 text-xl">
+          <div className="flex mt-4 space-x-4 text-xl">
             <a
               href="#"
               className="text-gray-700 hover:text-blue-600 border border-[#CBD5E1] rounded-full p-3"
@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="">
           <p className="mt-4 text-sm">&copy; 2025 Print Plus</p>
         </div>
-        <div className="mt-4 text-sm flex   space-x-4">
+        <div className="flex mt-4 space-x-4 text-sm">
           <a href="#" className="underline">
             Privacy Policy
           </a>
