@@ -25,7 +25,7 @@ export const metadata = {
  
     other: {
       rel: "icon",
-      url: "/logo.png",  
+      url: "/logo.svg",  
     },
   },
 };
