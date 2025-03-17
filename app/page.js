@@ -1,16 +1,14 @@
-import Image from "next/image";
-import Business_card from "./components/business_card";
-import Reviews from "./components/reviews";
-import FAQ from "./components/faqs";
-import ProductsSection from "./components/Products/ProductsSection";
+import Home_page from "./pages/Home/page";
+import Product_Details from "./pages/Product_Details/page";
+
+ 
+ 
   
 export default function Home() {
   return (
    <div>
-    <Business_card/>
-    <Reviews/>
-    <FAQ/>
-    <ProductsSection />
+    {/* <Product_Details/> */}
+     <Home_page/>
     </div>
   );
 }

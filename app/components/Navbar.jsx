@@ -7,6 +7,7 @@ import { IoIosArrowDown, IoIosMenu } from "react-icons/io";
 import Image from "next/image";
 import logo from "../../public/logo.svg";
 import { FaTruck } from "react-icons/fa";
+import Link from "next/link";
 
 const Navbar = () => {
   const [selectedCity, setSelectedCity] = useState("Riyadh");
@@ -33,7 +34,11 @@ const Navbar = () => {
             >
               {isMenuOpen ? <FaTimes /> : <IoIosMenu />}
             </button>
+            <Link href="/">
+            
             <Image src={logo} alt="Print Logo" className="h-[35px] w-[69px]" />
+            </Link>
+            
           </div>
 
           <div className="items-center hidden lg:flex">
@@ -75,9 +80,14 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-10">
+            
             <div className="items-center hidden gap-2 cursor-pointer lg:flex">
-              <CiUser className="text-xl" />
+             
+                <CiUser className="text-xl" />
+               <Link href="/pages/Product_Details">
               <h1 className="text-[16px]">Login</h1>
+              </Link>
+
             </div>
             <div className="hidden md:flex">ع</div>
             <div>
