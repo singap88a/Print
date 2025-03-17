@@ -84,7 +84,7 @@ const Navbar = () => {
             <div className="items-center hidden gap-2 cursor-pointer lg:flex">
              
                 <CiUser className="text-xl" />
-               <Link href="/pages/Product_Details">
+               <Link href="">
               <h1 className="text-[16px]">Login</h1>
               </Link>
 
