@@ -1,14 +1,14 @@
 
-import Product_1 from "../../../../public/Product/Product_1.svg"
-import Product_2 from "../../../../public/Product/Product_2.svg"
-import Product_3 from "../../../../public/Product/Product_3.svg"
-import Product_4 from "../../../../public/Product/Product_4.svg"
-import Product_5 from "../../../../public/Product/Product_5.svg"
-import Product_6 from "../../../../public/Product/Product_6.svg"
-import Product_7 from "../../../../public/Product/Product_7.svg"
-import Product_8 from "../../../../public/Product/Product_8.svg"
-import Product_9 from "../../../../public/Product/Product_9.svg"
-import Product_10 from "../../../../public/Product/Product_10.svg"
+import Product_1 from "../../../public/Product/Product_1.svg"
+import Product_2 from "../../../public/Product/Product_2.svg"
+import Product_3 from "../../../public/Product/Product_3.svg"
+import Product_4 from "../../../public/Product/Product_4.svg"
+import Product_5 from "../../../public/Product/Product_5.svg"
+import Product_6 from "../../../public/Product/Product_6.svg"
+import Product_7 from "../../../public/Product/Product_7.svg"
+import Product_8 from "../../../public/Product/Product_8.svg"
+import Product_9 from "../../../public/Product/Product_9.svg"
+import Product_10 from "../../../public/Product/Product_10.svg"
 
 export const products = [
     {

@@ -4,7 +4,7 @@ import Hero from "@/app/components/Home/Hero";
 import Marketing_Card from "@/app/components/Home/Marketing_Card";
 import Printing_services from "@/app/components/Home/printing_services";
 import TOP_Selling_products from "@/app/components/Home/TOP_Selling_products";
-import RecommendedProducts from "@/app/components/Product_Details/Products/RecommendedProducts";
+import RecommendedProducts from "@/app/components/Products/RecommendedProducts";
 import React from "react";
 
 function Home_page() {
